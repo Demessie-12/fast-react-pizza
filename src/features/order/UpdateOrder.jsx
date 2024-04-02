@@ -8,7 +8,7 @@ function UpdateOrder({ order }) {
   return (
     // fetcher form revalidate page without navigation
     <fetcher.Form method="PATCH" className="text-right">
-      <Buttons type="primary">Make Priority</Buttons>;
+      <Buttons type="primary">Make Priority</Buttons>
     </fetcher.Form>
   );
 }
